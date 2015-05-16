@@ -135,19 +135,3 @@ if (usuario1 == "piedra" && usuario2 == "papel" ){
 qvuc08qs para poder ver el código del maestro
 
 
-
-algoritmo Piedra, Papel y Tijeras
-
-var optionUser1 = prompt ("Usuario1 .--Elija una opción (1,2,3) \n 1. Piedra \n 2. Papel \n 3. Tijeras");
-var optionUser2 = prompt ("Usuario2 .--Elija una opción (1,2,3) \n 1. Piedra \n 2. Papel \n 3. Tijeras");
-
-if (optionUser1 == optionUser2){
-    alert("Es un empate");
-}
-else if ((optionUser1 == 1 && optionUser2 == 3) || (optionUser1 == 2 && optionUser2 == 1) || (optionUser1 == 3 && optionUser2 == 2)){
-    alert("Gana el Usuario1");
-}else{
-    alert("Gana el Usuario2");
-}
-
-
